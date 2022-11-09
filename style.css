@@ -1,0 +1,242 @@
+
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+ul li {
+    list-style: none;
+    padding: 8px 0 8px 20px;
+    transition: 0.7s;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+section {
+    padding-bottom: 79px;
+}
+.main {
+    margin-left: 340px;
+    margin-right: 20px;
+    width: 70%;
+}
+h2 {
+    color: #f44336;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.title {
+    padding-top: 110px;
+    font-size: 64px;
+    padding-bottom: 20px;
+    color: black;
+    border-radius: 15px;
+}
+.line {
+    border-radius: 10px;
+    border: #f44336 5px solid;
+    width: 61px;
+    height: 11px;
+    margin-top: 19px;
+    margin-bottom: 30px;
+}
+/* <!--============== MENUE  ============--> */
+nav {
+    background-color: #F44336;
+    height: 100vh;
+    width: 23%;
+    position: fixed;
+}
+nav .menu {
+    padding: 20px;
+    padding-top: 110px;
+}
+nav h4 {
+    padding-bottom: 80px;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #fff;
+    padding-left: 15px;
+
+}
+ul li:hover {
+    background-color: #fff;
+}
+ul li:hover a{
+    color: black;
+}
+/* <!--============ SHOWCASE============ --> */
+.imag-showcase {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.imag-showcase .first-img {
+    height: 350px !important;
+}
+.imag-showcase img {
+    width: 49.1%;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.imag-showcase img:hover {
+    opacity: 1;
+}
+
+/* <!--============ SERVICE============ --> */
+p {
+    padding-bottom: 15px;
+}
+
+/* <!--============ DESIGNERS============ --> */
+
+.cards-designer img {
+    width: 100%;
+    height: 180px;
+    filter: grayscale(0.8);
+}
+.cards-designer {
+    padding-top: 20px;
+    display: flex;
+}
+.cards-designer span {
+    opacity: 1.6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cards-designer h4 {
+    font-weight: 400;
+    font-size: 24px;
+}
+.designers h3 {
+    font-size: 16px;
+    opacity: 90%;
+}
+.cards-designer .card div {
+    background-color: #eaeaea;
+    padding-left: 12px;
+    margin-top: -6px;
+}
+.cards-designer .card-jane {
+    margin: 0 15px;
+}
+
+/* <!--============ PACKAGE ============ --> */
+.cards-packages {
+    display: flex;
+    gap: 16px;
+}
+.cards-packages div {
+    width: 100%;
+    background-color: #F1F1F1;
+    text-align: center; 
+}
+.cards-packages ul li {
+    align-items: center;
+    color: black;
+    font-size: 24px;
+    padding: 32PX;
+    padding: 16px;
+    height: 58px;
+    border-bottom: #eaeaea 2px solid;
+}
+#card-basic ul li:first-child  {
+    background-color: #616161 !important;
+    color: #fff !important;
+    height: 96px !important;
+    padding-top: 30px;
+}
+#card-pro ul li:first-child  {
+    background-color: #F44336 !important;
+    color: #fff !important;
+    height: 96px !important;
+    padding-top: 30px;
+}
+.cards-packages ul li:last-child {
+    border-bottom: #eaeaea 2px solid;
+    height: 119px;
+    font-size: 30px;
+}
+.cards-packages ul li span {
+    font-size: 15px;
+    display: block;
+    text-transform: lowercase;
+    opacity: 70%;
+}
+.cards-packages button {
+    margin-top: 23px;
+    margin-bottom: 23px;
+    padding: 9px 14px;
+    border: none;
+    transition: 0.7s;
+}
+.cards-packages #card-basic button {
+    background-color: #fff;
+}
+.cards-packages #card-pro button {
+    background-color: #F44336;
+    color: #fff;
+}
+.cards-packages  button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+/* <!--============ CONTACT ============ --> */
+form input {
+    width: 100%;
+    height: 40px;
+    border: #eaeaea 2px solid;
+    margin-bottom: 20px;
+}
+form input:last-child {
+    background-color: #EA1D27;
+    border: none;
+    color: #fff;
+    transition: 0.7s;
+}
+#submit:hover {
+    background-color:#b5b2b2;
+    color: black;
+}
+
+/* <!--============ FOOTER ============ --> */
+footer {
+    background-color: #f1f1f1;
+    width: 100% !important;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+footer p , #icon {
+    padding-top: 56px;
+    padding-right: 53px;
+}
+footer p span {
+    border-bottom: 2px #555 solid;
+    margin-left: 7px;
+}
+footer #icon i {
+    color: #333;
+    font-size: 20px;
+    padding-left: 15px;
+    transition: 0.7;
+}
+footer #icon a i:hover {
+    font-size: 24px;
+}
+footer #icon {
+    margin-left: 25%;
+}
+
+
